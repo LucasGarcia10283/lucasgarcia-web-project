@@ -68,3 +68,18 @@ img {
     border-radius: 8px;
     max-width: 100%;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+}
