@@ -2,9 +2,9 @@ document.getElementById("userForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
 
-    let name = document.getElementById("nameInput").value;
+    let hobby = document.getElementById("nameInput").value;
 
-    let message = name + " that's a pretty cool interest!";
+    let message = hobby + ", that's pretty cool!";
 
     document.getElementById("outputMessage").textContent = message;
     
